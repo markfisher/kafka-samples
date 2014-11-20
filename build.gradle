@@ -1,1 +1,10 @@
 apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile "org.apache.kafka:kafka_2.11:0.8.2-beta"
+}
